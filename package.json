@@ -8,12 +8,16 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest"
+  "engines": {
+    "node": ">=22.14.0 <25"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "lucide-react": "1.28.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.5",
+    "vite": "8.2.0"
+  }
 }

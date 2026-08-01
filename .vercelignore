@@ -1,0 +1,7 @@
+node_modules
+dist
+tools
+.preview-*
+.catalog-preview
+*-preview.png
+*.log

@@ -1,0 +1,24 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.vercel/
+
+# Local bundled Node runtime (used only by Start MacroWeek.cmd)
+tools/
+
+# Browser profiles and visual-check artifacts
+.preview-*/
+.catalog-preview/
+*-preview.png
+
+# Local logs and environment files
+*.log
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
